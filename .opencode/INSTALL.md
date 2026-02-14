@@ -10,7 +10,7 @@
 ### 1. Clone Superpowers
 
 ```bash
-git clone https://github.com/obra/superpowers.git ~/.config/opencode/superpowers
+git clone --branch sp-multi-model --single-branch https://github.com/old-mikser/superpowers-plus.git ~/.config/opencode/superpowers
 ```
 
 ### 2. Register the Plugin
@@ -38,6 +38,16 @@ ln -s ~/.config/opencode/superpowers/skills ~/.config/opencode/skills/superpower
 Restart OpenCode. The plugin will automatically inject superpowers context.
 
 Verify by asking: "do you have superpowers?"
+
+### 5. Run the Superpowers Plus installer
+
+From the superpowers-plus repo root, run:
+
+```bash
+./install.sh
+```
+
+This creates `sp-*` agent files in `~/.config/opencode/agents/`.
 
 ## Usage
 
