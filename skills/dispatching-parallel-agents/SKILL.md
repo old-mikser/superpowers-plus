@@ -69,6 +69,10 @@ Task("Fix agent-tool-abort.test.ts failures")
 Task("Fix batch-completion-behavior.test.ts failures")
 Task("Fix tool-approval-race-conditions.test.ts failures")
 // All three run concurrently
+```text
+@sp-investigator Fix agent-tool-abort.test.ts failures
+@sp-investigator Fix batch-completion-behavior.test.ts failures
+@sp-investigator Fix tool-approval-race-conditions.test.ts failures
 ```
 
 ### 4. Review and Integrate
