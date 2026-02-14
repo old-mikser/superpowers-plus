@@ -7,6 +7,11 @@ These steps assume you installed superpowers-plus via `.opencode/INSTALL.md`. Th
 ```bash
 rm -rf ~/.config/opencode/skills/superpowers
 ```
+## Remove plugin from corresponding opencode folder
+
+```bash
+rm -rf ~/.config/opencode/plugins/superpowers.js
+```
 
 ## Remove the superpowers-plus repo clone
 

@@ -33,13 +33,7 @@ rm -rf ~/.config/opencode/skills/superpowers
 ln -s ~/.config/opencode/superpowers/skills ~/.config/opencode/skills/superpowers
 ```
 
-### 4. Restart OpenCode
-
-Restart OpenCode. The plugin will automatically inject superpowers context.
-
-Verify by asking: "do you have superpowers?"
-
-### 5. Run the Superpowers Plus installer
+### 4. Run the Superpowers Plus installer
 
 From the superpowers-plus repo root, run:
 
@@ -48,6 +42,12 @@ From the superpowers-plus repo root, run:
 ```
 
 This creates `sp-*` agent files in `~/.config/opencode/agents/`.
+### 5. Restart OpenCode
+
+Restart OpenCode. The plugin will automatically inject superpowers context.
+
+Verify by asking: "do you have superpowers?"
+
 
 ## Usage
 
