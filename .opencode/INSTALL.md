@@ -42,6 +42,14 @@ From the superpowers-plus repo root, run:
 ```
 
 This creates `sp-*` agent files in `~/.config/opencode/agents/`.
+
+Agents created:
+- `sp-implementer`
+- `sp-investigator`
+- `sp-spec-reviewer`
+- `sp-code-quality-reviewer`
+- `sp-code-reviewer`
+- `sp-final-reviewer`
 ### 5. Restart OpenCode
 
 Restart OpenCode. The plugin will automatically inject superpowers context.

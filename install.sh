@@ -44,6 +44,7 @@ create_agent "sp-implementer" "Implements tasks using Superpowers prompts" "$REP
 create_agent "sp-investigator" "Investigates independent issues in parallel" "$REPO_ROOT/skills/dispatching-parallel-agents/investigator-prompt.md"
 create_agent "sp-spec-reviewer" "Reviews spec compliance using Superpowers prompts" "$REPO_ROOT/skills/subagent-driven-development/spec-reviewer-prompt.md"
 create_agent "sp-code-quality-reviewer" "Reviews code quality using Superpowers prompts" "$REPO_ROOT/skills/subagent-driven-development/code-quality-reviewer-prompt.md"
+create_agent "sp-code-reviewer" "Reviews completed project steps against plans and standards" "$REPO_ROOT/agents/code-reviewer.md"
 create_agent "sp-final-reviewer" "Final end-to-end review using Superpowers prompts" "$REPO_ROOT/skills/subagent-driven-development/final-reviewer-prompt.md"
 
 echo "[install] Done. Edit agent files to set per-agent models if desired."
